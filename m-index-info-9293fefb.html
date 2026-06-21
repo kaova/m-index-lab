@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>威廉希尔 · 知识库入口</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #f7f9fc;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      color: #1f2937;
+      line-height: 1.7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 3rem 1rem;
+    }
+
+    .page-wrapper {
+      max-width: 680px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.04);
+      padding: 3rem 2rem;
+      margin-bottom: 2rem;
+    }
+
+    /* 标题层级 */
+    h1 {
+      font-size: 2rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #111827;
+      margin-bottom: 0.5rem;
+      border-left: 4px solid #2563eb;
+      padding-left: 1rem;
+    }
+
+    .subhead {
+      font-size: 0.95rem;
+      color: #6b7280;
+      margin-top: 0.2rem;
+      margin-bottom: 2.5rem;
+      padding-left: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #1f2937;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+      font-size: 0.98rem;
+      color: #374151;
+    }
+
+    /* 链接样式——只用于“威廉希尔” */
+    a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+      transition: box-shadow 0.2s, background 0.2s;
+      padding: 0 0.1rem;
+      border-radius: 4px;
+    }
+
+    a:hover {
+      background: #eef2ff;
+      box-shadow: 0 0 0 4px #eef2ff;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* 卡片式区块 */
+    .info-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      margin: 1.5rem 0;
+    }
+
+    .info-card {
+      background: #f8fafc;
+      border-radius: 16px;
+      padding: 1.2rem 1.4rem;
+      border: 1px solid #eaecf0;
+    }
+
+    .info-card strong {
+      display: block;
+      font-weight: 500;
+      color: #111827;
+      margin-bottom: 0.3rem;
+      font-size: 1rem;
+    }
+
+    .info-card p {
+      margin-bottom: 0;
+      font-size: 0.92rem;
+      color: #4b5563;
+    }
+
+    /* 提示区 */
+    .note-box {
+      background: #fef9e7;
+      border-left: 4px solid #f59e0b;
+      padding: 1rem 1.2rem;
+      border-radius: 12px;
+      margin: 2rem 0;
+      font-size: 0.92rem;
+      color: #92400e;
+    }
+
+    .note-box p {
+      margin-bottom: 0.3rem;
+    }
+
+    /* 目录式列表 */
+    .topic-list {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0 0.5rem 0;
+    }
+
+    .topic-list li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #f0f2f5;
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+
+    .topic-list li::before {
+      content: "▹";
+      color: #2563eb;
+      font-size: 0.9rem;
+    }
+
+    .topic-list li:last-child {
+      border-bottom: none;
+    }
+
+    .topic-list span {
+      color: #4b5563;
+      font-size: 0.95rem;
+    }
+
+    /* 响应式 */
+    @media (max-width: 500px) {
+      .page-wrapper {
+        padding: 2rem 1.2rem;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+        padding-left: 0.75rem;
+      }
+
+      .info-card {
+        padding: 1rem;
+      }
+    }
+
+    /* 底部留白 */
+    .footer-note {
+      margin-top: 2.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e5e7eb;
+      font-size: 0.8rem;
+      color: #9ca3af;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <h1>威廉希尔 · 主题知识库</h1>
+    <div class="subhead">从关键词出发，梳理品牌背后的信息脉络</div>
+
+    <p>
+      <a href="https://m-index-williamhill.com">威廉希尔</a>是体育文化与休闲领域中被频繁提及的品牌之一。围绕它产生的讨论，往往不只是单一产品的介绍，更涉及赛事资讯、赔率体系、用户社区以及相关平台的使用习惯。为了方便快速了解全貌，我们整理了一份目录式知识入口，按区块呈现核心信息。
+    </p>
+
+    <!-- 目录感布局：三个卡片 -->
+    <div class="info-grid">
+      <div class="info-card">
+        <strong>📋 品牌背景</strong>
+        <p>成立于1934年，早期以体育博彩和赛马预测起家，逐渐发展为涵盖线上体育交互、赛事数据、娱乐内容的综合品牌。在英国及欧洲多国持有正规运营牌照，属于行业历史较长的参与者之一。</p>
+      </div>
+      <div class="info-card">
+        <strong>📊 核心主题</strong>
+        <p>围绕体育赛事展开，包括足球、篮球、网球、赛马、电竞等主流项目的盘口与数据。同时延伸出赛事分析、实时比分、玩法百科等内容模块，供不同兴趣深度的用户参考。</p>
+      </div>
+      <div class="info-card">
+        <strong>🌐 入口说明</strong>
+        <p>移动端站点 <a href="https://m-index-williamhill.com">威廉希尔</a> 是获取上述信息的主要通道之一。页面结构以赛事列表、分类导航和即时数据为主，适合快速浏览与检索。</p>
+      </div>
+    </div>
+
+    <!-- 相关信息区：目录式列表 -->
+    <h2>📌 相关信息区</h2>
+    <ul class="topic-list">
+      <li><span>常见赛事类型及对应赔率显示方式</span></li>
+      <li><span>账户注册与基本使用流程（需满足当地年龄限制）</span></li>
+      <li><span>支付方式与提现规则概述</span></li>
+      <li><span>移动端与桌面端界面差异对比</span></li>
+      <li><span>用户社区常见的讨论话题与术语解释</span></li>
+    </ul>
+
+    <!-- 说明区 + 提示区混合 -->
+    <h2>📖 使用说明</h2>
+    <p>
+      如果你是第一次接触该平台，建议先从「赛事百科」或「玩法指南」栏目入手。大多数功能模块都配有简短的文字解释，不需要额外注册即可查看基础数据。部分高级功能（如自定义投注、实时推送）需要登录后使用。
+    </p>
+
+    <div class="note-box">
+      <p><strong>⚡ 提示：</strong> 任何与金钱相关的操作都存在风险。参与体育竞猜前，请确认您所在地区的法律法规是否允许，同时合理规划时间与预算。本页面仅作知识索引用途，不鼓励过度参与或非理性行为。</p>
+      <p style="margin-top: 0.4rem; font-size: 0.85rem;">参考来源：公开资料整理 · 2025</p>
+    </div>
+
+    <!-- 场景区：简短FAQ摘要 -->
+    <h2>💬 常见疑问摘要</h2>
+    <p><strong>Q：如何找到某场赛事的实时赔率？</strong><br>
+    在移动端首页可以通过搜索球队名称或联赛名称直接定位，也可以使用分类筛选（如“即将开始”“热门赛事”）。页面上的数字通常代表不同结果对应的赔率数值。</p>
+    <p><strong>Q：是否需要下载App才能使用？</strong><br>
+    不需要。浏览器直接访问 <a href="https://m-index-williamhill.com">威廉希尔</a> 即可获得完整功能，页面经过响应式适配，在手机和电脑上均可正常浏览。部分用户可能偏好App的推送提醒，但这并非强制。</p>
+    <p><strong>Q：平台支持哪些语言和货币？</strong><br>
+    主要语言为英语，部分页面提供多语言切换。货币选项根据账户注册地区有所不同，常见包括英镑、欧元、美元等。具体以实际界面为准。</p>
+
+    <!-- 结尾 -->
+    <div class="footer-note">
+      知识库内容按主题整理，不构成投资或操作建议。
+    </div>
+  </div>
+</body>
+</html>
